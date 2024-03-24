@@ -2,6 +2,7 @@ import React from "react";
 import ItemLayout from "./ItemLayout";
 import Link from "next/link";
 
+
 const AboutDetails = () => {
   return (
     <section className="py-20 w-full">
@@ -15,15 +16,7 @@ const AboutDetails = () => {
             Architect of Enchantment
           </h2>
           <p className="font-light  text-xs sm:text-sm md:text-base   ">
-            My journey in web development is powered by an array of mystical
-            tools and languages, with JavaScript casting the core of my
-            enchantments. I wield frameworks like React.js and Next.js with
-            precision, crafting seamless portals (websites) that connect realms
-            (users) across the digital universe. The ancient arts of the
-            Jamstack empower me to create fast, secure, and dynamic experiences,
-            while my design skills ensure every creation is not only functional
-            but visually captivating. Join me as I continue to explore new
-            spells and technologies to shape the future of the web.
+          In the digital realm, I, Darshil Modi, wield the arcane crafts of JavaScript, React.js, and Next.js to sculpt seamless portals between realms of users, guided by the ancient principles of the Jamstack for swift, secure, and dynamic web experiences. My education at Syracuse University and the Dwarkadas J Sanghvi College of Engineering, coupled with real-world sorcery at PrideVel Technologies, has honed my skills in blockchain, smart contract integration, and full-stack development. Through projects like SmartMart, Buyit, and MyFund, I have demonstrated my ability to blend functionality with captivating design, continuously exploring new technologies to pioneer the future of the web.
           </p>
         </ItemLayout>
 
@@ -31,7 +24,7 @@ const AboutDetails = () => {
           className={" col-span-full xs:col-span-6 lg:col-span-4 text-accent"}
         >
           <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
-            25+ <sub className="font-semibold text-base">clients</sub>
+            500+ <sub className="font-semibold text-base">Users served</sub>
           </p>
         </ItemLayout>
 
@@ -39,62 +32,41 @@ const AboutDetails = () => {
           className={"col-span-full xs:col-span-6 lg:col-span-4 text-accent"}
         >
           <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
-            4+{" "}
+            1+{" "}
             <sub className="font-semibold text-base">years of experience</sub>
           </p>
         </ItemLayout>
 
         <ItemLayout
-          className={"col-span-full sm:col-span-6 md:col-span-4 !p-0"}
-        >
+        className={" col-span-full"}>
+          <p>
+          Behold, now I unveil the grand tapestry of my arcane prowess.
+          </p>
+        </ItemLayout>
+        <ItemLayout className={"col-span-full"}>
           <img
             className="w-full h-auto"
-            src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/top-langs?username=codebucks27&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
-            alt="CodeBucks"
+            src={`https://skillicons.dev/icons?i=html,css,bootstrap,js,jquery,java,cpp,py,react,redux,nextjs,threejs,nodejs,npm,tailwind,angular,aws,bash,docker,firebase,git,haskell,mongodb,powershell,solidity&perline=10`}
+            alt="Darshil"
             loading="lazy"
           />
+        </ItemLayout>
+        <ItemLayout
+          className={"col-span-full "}
+        >
+          <p>
+            Tools I use
+          </p>
         </ItemLayout>
 
-        <ItemLayout className={"col-span-full md:col-span-8 !p-0"}>
-          <img
-            className="w-full h-auto"
-            src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api?username=codebucks27&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
-            alt="CodeBucks"
-            loading="lazy"
-          />
-        </ItemLayout>
 
         <ItemLayout className={"col-span-full"}>
           <img
             className="w-full h-auto"
-            src={`https://skillicons.dev/icons?i=appwrite,aws,babel,bootstrap,cloudflare,css,d3,docker,figma,firebase,gatsby,git,github,graphql,html,ipfs,js,jquery,kubernetes,linux,mongodb,mysql,netlify,nextjs,nodejs,npm,postgres,react,redux,replit,sass,supabase,tailwind,threejs,vercel,vite,vscode,yarn`}
-            alt="CodeBucks"
+            src={`https://skillicons.dev/icons?i=vscode,pycharm,visualstudio,atom,remix,anaconda`}
+            alt="Darshil"
             loading="lazy"
           />
-        </ItemLayout>
-
-        <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
-          <img
-            className="w-full h-auto"
-            src={`${process.env.NEXT_PUBLIC_GITHUB_STREAK_STATS_URL}?user=codebucks27&theme=dark&hide_border=true&type=svg&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B`}
-            alt="CodeBucks"
-            loading="lazy"
-          />
-        </ItemLayout>
-
-        <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
-          <Link
-            href="https://github.com/codebucks27/Nextjs-contentlayer-blog"
-            target="_blank"
-            className="w-full"
-          >
-            <img
-              className="w-full h-auto"
-              src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/pin/?username=codebucks27&repo=Nextjs-contentlayer-blog&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2`}
-              alt="CodeBucks"
-              loading="lazy"
-            />
-          </Link>
         </ItemLayout>
       </div>
     </section>
